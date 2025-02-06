@@ -1,3 +1,6 @@
+
+// ReSharper disable SuggestVarOrType_SimpleTypes
+
 namespace NanimosinaiExecTool;
 
 static class Program
@@ -12,5 +15,6 @@ static class Program
         // see https://aka.ms/applicationconfiguration.
         ApplicationConfiguration.Initialize();
         Application.Run(new Form1());
-    }    
+    }
+
 }
